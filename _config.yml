@@ -31,16 +31,20 @@ domain: ditteaaroee.github.io       # if you want to force HTTPS, specify the do
 url: https://ditteaaroee.github.io  # the base hostname and protocol for your site, e.g. http://example.com
 #baseurl: /ditteaaroee.github.io/      # place folder name if the site is served in a subfolder
 
-# Build settings
-theme: jekyll-theme-hacker #minima #hydra
+
+
+# remote_theme: pages-themes/hacker@v0.2.0
 # plugins:
-#   - jekyll-feed
+# - jekyll-feed
+# - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-remote_theme: pages-themes/hacker@v0.2.0
+
+
+
+# Build settings
+theme: minima #hydra #jekyll-theme-hacker 
 plugins:
-- jekyll-feed
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-
+  - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.

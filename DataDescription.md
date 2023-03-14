@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "About the data"
 permalink: /about/data/
 ---
